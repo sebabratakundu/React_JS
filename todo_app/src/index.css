@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: purple;
+}
+
+div {
+  width: 400px;
+  height: 600px;
+  background: #eee;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+h1 {
+  background: palevioletred;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 20px 0;
+  padding: 10px 0;
+}
+
+input {
+  width: 70%;
+  padding: 10px 20px;
+  margin: 0 20px;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  float: left;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: palevioletred;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  border: none;
+  margin-bottom: 20px;
+}
+
+ol {
+  padding: 10px 20px;
+  margin: 0;
+  list-style: none;
+  /* border: 1px solid red; */
+}
+
+ol li {
+  font-size: 30px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  color: purple;
+  font-family: sans-serif;
+  font-weight: bold;
+  border-bottom: 1px solid #ddd;
+}
+
+.add-btn {
+  margin-bottom: 20px;
+}
+
+.del-btn {
+  margin-right: 30px;
+  cursor: pointer;
+}
